@@ -9,3 +9,6 @@ class TestPlayer(unittest.TestCase):
 
     def test_player_name(self):
         self.assertEqual("Steven", self.player_1.name)
+
+    def test_player_choice(self):
+        self.assertEqual("Rock", self.player_1.choice)
